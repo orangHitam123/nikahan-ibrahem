@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f5ef" />
+    <meta
+      name="description"
+      content="Undangan pernikahan digital Summer H Howell dan Raja."
+    />
+    <title>Undangan Pernikahan | Summer & Raja</title>
+
+    <!-- Bootstrap 5 & typography -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="cover-open">
+    <!-- PANEL KIRI -->
+    <aside class="side-panel" aria-label="Identitas pasangan">
+      <div class="side-panel__content">
+        <span class="eyebrow light">THE WEDDING OF</span>
+        <p class="side-panel__names">Summer <span>&</span> Raja</p>
+        <span class="side-panel__line" aria-hidden="true"></span>
+        <time class="side-panel__date" datetime="2027-06-12"
+          >12 . 06 . 2027</time
+        >
+      </div>
+      <span class="side-panel__bottom">THE MOMENT TO REMEMBER</span>
+    </aside>
+
+    <!-- PANEL KANAN -->
+    <main class="main-content" id="main-content" tabindex="-1">
+      <!-- Navigasi halaman -->
+      <nav class="site-nav" aria-label="Navigasi undangan">
+        <a class="site-nav__brand" href="#home">S <span>&</span> R</a>
+        <div class="site-nav__links">
+          <a href="#couple">Mempelai</a>
+          <a href="#events">Acara</a>
+          <a href="#location">Lokasi</a>
+        </div>
+      </nav>
+
+      <!-- halaman utama setelah cover -->
+      <header class="hero-section section-padding" id="home">
+        
+        <p class="eyebrow">WITH LOVE AND GRATITUDE</p>
+        <p class="hero-section__intro">Kami mengundang Anda untuk merayakan</p>
+        <h1 class="script-title">Summer <span>&</span> Raja</h1>
+        <p class="hero-section__copy">
+          Dua insan, Satu Jiwa, Satu Hati.<br />Merayakan awal dari selamanya.
+        </p>
+        <div class="hero-section__date">
+          <span></span><time datetime="2027-06-12">12 JUNI 2027</time
+          ><span></span>
+        </div>
+        <a class="btn btn-wedding" href="#couple" id="lihat-undangan">
+          Lihat Undangan <span aria-hidden="true">↓</span>
+        </a>
+        
+      </header>
+
+      <!-- PROFIL -->
+      <section
+        class="content-section section-padding"
+        id="couple"
+        aria-labelledby="couple-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">THE HAPPIEST COUPLE</p>
+          <h2 id="couple-title">Mempelai Berbahagia</h2>
+          <p>
+            Dengan penuh syukur, tengoklah istri cantik guweh.
+          </p>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-6">
+            <article class="couple-card h-100">
+              <!-- Foto wdok -->
+              <div id="carouselWanita" class="carousel slide couple-card__photo">
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img src="assets/simir.jpeg" class="d-block w-100" loading="lazy" alt="Foto Summer 1">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="assets/samer.jpeg" class="d-block w-100" loading="lazy" alt="Foto Summer 2">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="assets/sumur.jpeg" class="d-block w-100" loading="lazy" alt="Foto Summer 3">
+                  </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button"
+                  data-bs-target="#carouselWanita" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Foto sebelumnya</span>
+                </button>
+
+                <button class="carousel-control-next" type="button"
+                  data-bs-target="#carouselWanita" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Foto berikutnya</span>
+                </button>
+              </div>
+
+              <!-- wdok -->
+              <div class="couple-card__body">
+                <p class="eyebrow">THE BRIDE</p>
+                <h3>Summer H Howell</h3>
+                <p>Putri dari<br /><strong>Jacob Howell & Sarah Howell</strong></p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6">
+            <article class="couple-card h-100">
+              <!-- foto lananag-->
+              <div id="carouselPria" class="carousel slide couple-card__photo">
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img src="assets/raja.jpeg" class="d-block w-100" loading="lazy" alt="Foto Raja 1">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="assets/riji.jpeg" class="d-block w-100" loading="lazy" alt="Foto Raja 2">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="assets/kirik.jpeg" class="d-block w-100" loading="lazy" alt="Foto Raja 3">
+                  </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button"
+                  data-bs-target="#carouselPria" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Foto sebelumnya</span>
+                </button>
+
+                <button class="carousel-control-next" type="button"
+                  data-bs-target="#carouselPria" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Foto berikutnya</span>
+                </button>
+              </div>
+
+              <!-- Profil lnang -->
+              <div class="couple-card__body">
+                <p class="eyebrow">THE GROOM</p>
+                <h3>Raja</h3>
+                <p>Putra dari<br /><strong>Tony Stark & Pepper Potts</strong></p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- JADWAL-->
+      <section
+        class="content-section content-section--tinted section-padding"
+        id="events"
+        aria-labelledby="events-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">SAVE THE DATE</p>
+          <h2 id="events-title">Rangkaian Acara</h2>
+          <p>
+            Merupakan kehormatan bagi anda jika anda hadir dan
+            memberikan doa restu.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <article class="event-card h-100">
+              <h3>Akad Nikah</h3>
+              <p class="event-card__day">Sabtu, 12 Juni 2027</p>
+              <p class="event-card__time">08.00 - 10.00 WIB</p>
+              <div class="event-card__divider"></div>
+              <strong>Disneyland</strong>
+              <p>Anaheim, California 92802, Amerika Serikat</p>
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article class="event-card h-100">
+              <h3>Resepsi</h3>
+              <p class="event-card__day">Sabtu, 12 Juni 2027</p>
+              <p class="event-card__time">11.00 - 14.00 WIB</p>
+              <div class="event-card__divider"></div>
+              <strong>Disneyland</strong>
+              <p>Anaheim, California 92802, Amerika Serikat</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAP -->
+      <section
+        class="content-section section-padding"
+        id="location"
+        aria-labelledby="location-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">FIND THE VENUE</p>
+          <h2 id="location-title">Lokasi Acara</h2>
+          <p>Disneyland<br />Anaheim, California 92802, Amerika Serikat</p>
+        </div>
+        <div class="map-frame">
+          <!-- Placeholder peta -->
+          <iframe
+             title="Peta lokasi acara pernikahan"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2179.3421559144253!2d-117.9202442670768!3d33.811734891973245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland!5e0!3m2!1sid!2sid!4v1792655666562!5m2!1sid!2sid"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <a
+          class="btn btn-wedding"
+          href="https://maps.app.goo.gl/i9rn5m6GPhg75qzP8?g_st=aw"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Buka Google Maps ↗</a
+        >
+      </section>
+
+      <footer class="site-footer">
+        <p>Thank you for being part of our story</p>
+        <span class="script-title script-title--footer">Summer & Raja</span>
+        <small>Made with love · 2027</small>
+      </footer>
+    </main>
+
+    <!-- COVER -->
+    <div
+      class="invitation-cover"
+      id="invitation-cover"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="cover-heading"
+    >
+      <div class="invitation-cover__inner">
+        <p class="eyebrow">YOU ARE INVITED TO</p>
+        <p class="invitation-cover__small">The Wedding Of</p>
+        <h2 class="script-title" id="cover-heading">
+          Summer<span><br>&<br></span>Raja
+        </h2>
+        <p class="invitation-cover__date">Sabtu, 12 Juni 2027</p>
+        <p class="invitation-cover__guest">
+          Kepada Yth.<br /><strong>Bapak / Ibu / Saudara/i</strong>
+        </p>
+        <button class="btn btn-wedding"  id="open-invitation">
+          Buka Undangan <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <audio id="background-music" loop preload="none">
+      <source src="assets/cupid.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" class="music-toggle" type="button" aria-label="Putar musik" aria-pressed="false">
+      ♫
+    </button>
+
+  </body>
+</html>
+
